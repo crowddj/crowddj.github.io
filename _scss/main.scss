@@ -1,0 +1,55 @@
+// @import "partials/reset";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  // background: $midpointBlue;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+  margin: 30px;
+}
+
+.list-container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid white;
+  ul.song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    .song {
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid #ccc;
+    }
+  }
+}
+
+
+
