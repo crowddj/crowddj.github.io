@@ -23,7 +23,8 @@ module.exports = gulp => {
   gulp.task( 'serve', ['jekyll-build'], () => {
     browserSync.init({
       server: {
-        baseDir: '_site'
+        baseDir: '_site',
+        port: 1234
       }
     });
 
